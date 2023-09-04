@@ -7,9 +7,12 @@ Changelog
 
 v0.3.7
 ----------------------------------------------------------------------------------------
+
 - Add :data:`~exhale.configs.fullyQualifiedTitles` option so that pages like
   ``device1::error`` and ``device2::error`` render as unique names (:issue:`187`,
   :pr:`188`).
+- Fix a bug where an unknown node kind, such as concepts, would cause a crash due to a
+  missing color in the console (:issue:`195`, :pr:`196`).
 
 v0.3.6
 ----------------------------------------------------------------------------------------
